@@ -19,5 +19,8 @@
   "homepage": "https://github.com/alexisbenavidez99/alexisbenavidez#readme",
   "devDependencies": {
     "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
   }
 }

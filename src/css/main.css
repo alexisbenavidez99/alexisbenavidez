@@ -1,0 +1,66 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+}
+
+.btn {
+    font-family: 'Satoshi', sans-serif;
+    margin-top: 10px;
+    border-radius: 0px !important;
+}
+
+/* Hero Section */
+
+.hero {
+    margin: 15%;
+    /* border: solid 5px red; */
+}
+
+.hero h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero span {
+    color: #E31382;
+}
+
+/* About Section */
+
+.about {
+    margin: 50% 15%;
+    position: relative;
+    /* border: solid 5px red; */
+}
+
+.about h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.about img {
+    width: 450px;
+    height: auto;
+}
+
+.about p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    float: right;
+    width: 55%;
+    align-content: center;
+    /* border: solid 5px red; */
+    margin-top: 15%;
+}
+
+.about button {
+    position: relative;
+    top: 115px;
+    left: 90px;
+}
+
