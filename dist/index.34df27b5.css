@@ -5,7 +5,15 @@
 .btn {
   margin-top: 10px;
   font-family: Satoshi, sans-serif;
+  color: #e31382 !important;
+  border-color: #e31382 !important;
   border-radius: 0 !important;
+}
+
+.btn:hover {
+  color: #fff !important;
+  background-color: #e31382 !important;
+  border-color: #fff !important;
 }
 
 .hero {
@@ -23,7 +31,7 @@
 }
 
 .about {
-  margin: 50% 15%;
+  margin: 40% 15%;
   position: relative;
 }
 
@@ -40,7 +48,7 @@
   height: auto;
 }
 
-.about p {
+.about-description {
   float: right;
   align-content: center;
   width: 55%;
@@ -49,10 +57,18 @@
   font-size: 18px;
 }
 
-.about button {
+.project {
+  border: 5px solid red;
+  margin: 15%;
   position: relative;
-  top: 115px;
-  left: 90px;
+}
+
+.project h1 {
+  text-align: center;
+  margin-bottom: 15%;
+  font-family: Satoshi, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */

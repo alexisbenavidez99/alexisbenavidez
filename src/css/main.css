@@ -8,6 +8,14 @@
     font-family: 'Satoshi', sans-serif;
     margin-top: 10px;
     border-radius: 0px !important;
+    border-color: #E31382 !important;
+    color: #E31382 !important;
+}
+
+.btn:hover {
+    background-color: #E31382 !important;
+    border-color: white !important;
+    color: white !important;
 }
 
 /* Hero Section */
@@ -30,7 +38,7 @@
 /* About Section */
 
 .about {
-    margin: 50% 15%;
+    margin: 40% 15%;
     position: relative;
     /* border: solid 5px red; */
 }
@@ -48,7 +56,7 @@
     height: auto;
 }
 
-.about p {
+.about-description {
     font-family: 'Satoshi', sans-serif;
     font-size: 18px;
     float: right;
@@ -58,9 +66,19 @@
     margin-top: 15%;
 }
 
-.about button {
+/* Project Section */
+.project {
+    border: solid 5px red;
+    margin: 15% 15%;
     position: relative;
-    top: 115px;
-    left: 90px;
 }
+
+.project h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
 
