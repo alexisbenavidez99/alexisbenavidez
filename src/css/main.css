@@ -68,7 +68,7 @@
 
 /* Project Section */
 .project {
-    border: solid 5px red;
+    /* border: solid 5px red; */
     margin: 15% 15%;
     position: relative;
 }
@@ -81,4 +81,28 @@
     margin-bottom: 15%;
 }
 
+.project-section {
+    height: auto;
+    border: solid 5px red;
+    width: 100%;
+}
+
+.project-section p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    float: left;
+    width: 55%;
+    align-content: center;
+    /* border: solid 5px red; */
+}
+
+.project-section img {
+    width: 450px;
+    height: auto;
+    float: right;
+}
+
+.project-section .btn {
+    display: inline-block;
+}
 

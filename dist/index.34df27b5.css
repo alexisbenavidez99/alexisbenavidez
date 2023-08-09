@@ -58,7 +58,6 @@
 }
 
 .project {
-  border: 5px solid red;
   margin: 15%;
   position: relative;
 }
@@ -69,6 +68,30 @@
   font-family: Satoshi, sans-serif;
   font-size: 60px;
   font-weight: 700;
+}
+
+.project-section {
+  border: 5px solid red;
+  width: 100%;
+  height: auto;
+}
+
+.project-section p {
+  float: left;
+  align-content: center;
+  width: 55%;
+  font-family: Satoshi, sans-serif;
+  font-size: 18px;
+}
+
+.project-section img {
+  float: right;
+  width: 450px;
+  height: auto;
+}
+
+.project-section .btn {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */
