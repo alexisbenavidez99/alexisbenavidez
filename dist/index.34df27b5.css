@@ -71,15 +71,20 @@
 }
 
 .project-section {
-  border: 5px solid red;
   width: 100%;
-  height: auto;
+  height: 400px;
+}
+
+.project-section h2 {
+  color: #e31382;
+  font-family: Satoshi, sans-serif;
+  font-weight: 500;
 }
 
 .project-section p {
   float: left;
   align-content: center;
-  width: 55%;
+  width: 40%;
   font-family: Satoshi, sans-serif;
   font-size: 18px;
 }
@@ -88,10 +93,6 @@
   float: right;
   width: 450px;
   height: auto;
-}
-
-.project-section .btn {
-  display: inline-block;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */
