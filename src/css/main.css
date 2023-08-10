@@ -38,7 +38,7 @@
 /* About Section */
 
 .about {
-    margin: 40% 15%;
+    margin: 30% 20%;
     position: relative;
     /* border: solid 5px red; */
 }
@@ -48,11 +48,11 @@
     font-size: 60px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .about img {
-    width: 450px;
+    width: 320px;
     height: auto;
 }
 
@@ -63,7 +63,7 @@
     width: 55%;
     align-content: center;
     /* border: solid 5px red; */
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 /* Project Section */
@@ -78,13 +78,14 @@
     font-size: 60px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
 
 .project-section {
-    height: 400px;
-    /* border: solid 5px red; */
+    height: 500px;
+    border: solid 5px red;
     width: 100%;
+    grid-template-columns: max-content;
 }
 
 .project-section h2 {
@@ -97,18 +98,19 @@
     font-family: 'Satoshi', sans-serif;
     font-size: 18px;
     float: left;
-    width: 40%;
+    width: 100%;
     align-content: center;
-    /* border: solid 5px red; */
+    border: solid 5px red;
 }
 
 .project-section img {
-    width: 450px;
+    width: 600px;
     height: auto;
     float: right;
 }
 
-.project-description  {
-   
+.btn-holder {
+    border: solid 5px red;
 }
+
 
