@@ -100,9 +100,8 @@
 }
 
 .contact {
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
+  height: 600px;
+  margin: 20%;
 }
 
 .contact h1 {
@@ -118,14 +117,33 @@
   align-content: center;
   width: 100%;
   font-family: Satoshi, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.contact a {
+  color: #000;
+  margin-bottom: 15px;
+  font-family: Satoshi, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .contact .personal-info {
-  display: flex;
+  float: left;
+  display: grid;
 }
 
-.contact input, textarea {
+.contact .icon-link {
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.contact form {
+  float: right;
+  width: 60%;
+}
+
+.contact input, .contact textarea {
   border: 1px solid gray;
   border-radius: 8px;
   font-family: Satoshi, sans-serif;

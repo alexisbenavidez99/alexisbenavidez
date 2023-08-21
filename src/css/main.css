@@ -111,9 +111,9 @@
 /* Contact Section */
 
 .contact {
-    max-width: 1024px;
-    margin: 0 auto;
-    width: 100%;
+    margin: 20%;
+    /* border: solid 5px red; */
+    height: 600px;
 }
 
 .contact h1 {
@@ -122,22 +122,45 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 10%;
+    /* border: solid 5px red; */
 }
 
 .contact p {
     font-family: 'Satoshi', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     float: left;
     width: 100%;
     align-content: center;
+    /* border: solid 5px red; */
+}
+
+.contact a {
+    text-decoration: none;
+    font-family: 'Satoshi', sans-serif;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 15px;
 }
 
 .contact .personal-info {
-    display: flex;
+    display: grid; 
+    float: left;
+    /* border: solid 5px red; */
+}
+
+.contact .icon-link {
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.contact form {
+    float: right;
+    /* border: solid 5px red; */
+    width: 60%;
 }
 
 .contact input,
-textarea {
+.contact textarea {
     font-family: 'Satoshi', sans-serif;
     border: solid 1px gray;
     border-radius: 8px;
