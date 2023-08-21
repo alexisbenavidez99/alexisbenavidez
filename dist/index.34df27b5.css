@@ -58,8 +58,9 @@
 }
 
 .project {
-  margin: 15%;
-  position: relative;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .project h1 {
@@ -71,10 +72,11 @@
 }
 
 .project-section {
-  border: 5px solid red;
-  grid-template-columns: max-content;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
   width: 100%;
-  height: 500px;
+  margin-bottom: 20%;
+  display: grid;
 }
 
 .project-section h2 {
@@ -85,7 +87,6 @@
 
 .project-section p {
   float: left;
-  border: 5px solid red;
   align-content: center;
   width: 100%;
   font-family: Satoshi, sans-serif;
@@ -96,10 +97,6 @@
   float: right;
   width: 600px;
   height: auto;
-}
-
-.btn-holder {
-  border: 5px solid red;
 }
 
 /*# sourceMappingURL=index.34df27b5.css.map */

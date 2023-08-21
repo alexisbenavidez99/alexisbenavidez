@@ -22,7 +22,6 @@
 
 .hero {
     margin: 15%;
-    /* border: solid 5px red; */
 }
 
 .hero h1 {
@@ -40,7 +39,6 @@
 .about {
     margin: 30% 20%;
     position: relative;
-    /* border: solid 5px red; */
 }
 
 .about h1 {
@@ -62,15 +60,15 @@
     float: right;
     width: 55%;
     align-content: center;
-    /* border: solid 5px red; */
     margin-top: 5%;
 }
 
 /* Project Section */
+
 .project {
-    /* border: solid 5px red; */
-    margin: 15%;
-    position: relative;
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .project h1 {
@@ -82,10 +80,11 @@
 }
 
 .project-section {
-    height: 500px;
-    border: solid 5px red;
     width: 100%;
-    grid-template-columns: max-content;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    margin-bottom: 20%;
 }
 
 .project-section h2 {
@@ -100,7 +99,7 @@
     float: left;
     width: 100%;
     align-content: center;
-    border: solid 5px red;
+    /* border: solid 5px red; */
 }
 
 .project-section img {
@@ -109,8 +108,5 @@
     float: right;
 }
 
-.btn-holder {
-    border: solid 5px red;
-}
 
 
