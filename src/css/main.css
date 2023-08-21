@@ -108,5 +108,37 @@
     float: right;
 }
 
+/* Contact Section */
 
+.contact {
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
 
+.contact h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.contact p {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 18px;
+    float: left;
+    width: 100%;
+    align-content: center;
+}
+
+.contact .personal-info {
+    display: flex;
+}
+
+.contact input,
+textarea {
+    font-family: 'Satoshi', sans-serif;
+    border: solid 1px gray;
+    border-radius: 8px;
+}

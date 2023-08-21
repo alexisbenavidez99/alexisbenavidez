@@ -99,4 +99,36 @@
   height: auto;
 }
 
+.contact {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 10%;
+  font-family: Satoshi, sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.contact p {
+  float: left;
+  align-content: center;
+  width: 100%;
+  font-family: Satoshi, sans-serif;
+  font-size: 18px;
+}
+
+.contact .personal-info {
+  display: flex;
+}
+
+.contact input, textarea {
+  border: 1px solid gray;
+  border-radius: 8px;
+  font-family: Satoshi, sans-serif;
+}
+
 /*# sourceMappingURL=index.34df27b5.css.map */
