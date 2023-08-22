@@ -99,6 +99,10 @@
   height: auto;
 }
 
+.project-section a {
+  text-decoration: none;
+}
+
 .contact {
   height: 600px;
   margin: 20% 20% 5%;

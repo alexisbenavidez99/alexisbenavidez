@@ -18,6 +18,7 @@
     color: white !important;
 }
 
+
 /* Hero Section */
 
 .hero {
@@ -108,6 +109,10 @@
     float: right;
 }
 
+.project-section a {
+    text-decoration: none;
+}
+
 /* Contact Section */
 
 .contact {
@@ -187,6 +192,7 @@ footer p {
     justify-content: center;
 }
 
+
 .icons {
     padding-top: 50px;
     transition: 0.3s;
@@ -196,3 +202,5 @@ footer p {
     transform: translate(0, -10px);
     cursor: pointer;
 }
+
+
