@@ -574,6 +574,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"ebWYT":[function(require,module,exports) {
+ScrollReveal().reveal(".hero", {
+    delay: 500
+});
 
 },{}]},["j9r0q","ebWYT"], "ebWYT", "parcelRequire879e")
 
