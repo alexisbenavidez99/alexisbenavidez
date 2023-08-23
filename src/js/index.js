@@ -1,1 +1,4 @@
-ScrollReveal().reveal('.hero', { delay: 500 });
+import initScrollReveal from "./scrollReveal";
+import { targetElements, defaultProps } from "./scrollRevealConfig";
+
+initScrollReveal(targetElements, defaultProps);

@@ -11,7 +11,10 @@
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500&display=swap" rel="stylesheet">
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
 </head>
 
 <body>
@@ -21,20 +24,20 @@
     <!-- Hero Section -->
 
     <section class="hero">
-        <h1>Hi, my name is <span>Alexis Benavidez</span></h1>
-        <h1>I am a <span>Front-end Developer</span></h1>
+        <h1 class="hero-title">Hi, my name is <span>Alexis Benavidez</span></h1>
+        <h1 class="hero-cta">I am a <span>Front-end Developer</span></h1>
         <a href="#about">
-            <button type="button" class="btn btn-outline-success">Learn More</button>
+            <button type="button" class="btn btn-outline-success hero-cta reveal">Learn More</button>
         </a>
     </section>
 
     <!-- About Section -->
 
     <section class="about" id="about">
-        <h1>ABOUT ME</h1>
-        <img src="/src/images/alexis.jpg" alt="Alexis Benavidez">
-        <div class="about-description">
-            <p>I live in Nashville, Tennessee and I am 24 years old. In my free time, I love to hang out with my family
+        <h1 class="section-title">ABOUT ME</h1>
+        <img src="/src/images/alexis.jpg" class="about-wrapper__image" alt="Alexis Benavidez">
+        <div class="about-description about-wrapper__info">
+            <p class=".about-wrapper__info-text">I live in Nashville, Tennessee and I am 24 years old. In my free time, I love to hang out with my family
                 and friends, travel and code! I am an front-end web developer. I am a recent graduate of a Full-Stack
                 Web Development bootcamp.
                 My area of interests are front-end technologies such as HTML, CSS, React, JavaScript.
@@ -50,11 +53,11 @@
     <!-- Projects Section -->
 
     <section class="project" id="project">
-        <h1>PROJECTS</h1>
+        <h1 class="section-title">PROJECTS</h1>
         <div class="project-section">
             <div>
-                <h2>Coinspire</h2>
-                <p>
+                <h2 class="section-title">Coinspire</h2>
+                <p class="project-wrapper__text">
                     A front-end web application that allows users to live track current cryptocurrency prices to assist
                     and aid beginners at cryptocurrency in fast trading, accurate data for learning, with easy and
                     simple UI, and users will be able to see only the important details.
@@ -68,13 +71,13 @@
                     </a>
                 </div>
             </div>
-            <img data-tilt src="/src/images/coinspire.png" alt="Coinspire">
+            <img data-tilt src="/src/images/coinspire.png" class="project-wrapper__image" alt="Coinspire">
         </div>
 
         <div class="project-section">
             <div>
-                <h2>Book Haven</h2>
-                <p>
+                <h2 class="section-title">Book Haven</h2>
+                <p class="project-wrapper__text">
                     A MERN stack book e-commerce website that includes detailed descriptions, customer reviews, and
                     recommendations to help guide your choices.
                 </p>
@@ -87,13 +90,13 @@
                     </a>
                 </div>
             </div>
-            <img data-tilt src="/src/images/bookhaven.png" alt="Book Haven">
+            <img data-tilt src="/src/images/bookhaven.png" class="project-wrapper__image" alt="Book Haven">
         </div>
 
         <div class="project-section">
             <div>
-                <h2>Longevity</h2>
-                <p>
+                <h2 class="section-title">Longevity</h2>
+                <p class="project-wrapper__text">
                     A full-stack application that allows users to create a profile, curate workout plans, learn new
                     exercises with instructional descriptions of exercises they choose, and keep track of their past
                     workouts.
@@ -107,13 +110,13 @@
                     </a>
                 </div>
             </div>
-            <img data-tilt src="/src/images/longevity.png" alt="Longevity">
+            <img data-tilt src="/src/images/longevity.png" class="project-wrapper__image" alt="Longevity">
         </div>
 
         <div class="project-section">
             <div>
-                <h2>Weather App</h2>
-                <p>
+                <h2 class="section-title">Weather App</h2>
+                <p class="project-wrapper__text">
                     A weather app that uses OpenWeatherMap APIs to create an app for people to plan trips accordingly.
                 </p>
                 <div class="btn-holder">
@@ -125,15 +128,15 @@
                     </a>
                 </div>
             </div>
-            <img data-tilt src="/src/images/weather-app.png" alt="Weather App">
+            <img data-tilt src="/src/images/weather-app.png" class="project-wrapper__image" alt="Weather App">
         </div>
     </section>
 
     <!-- Contact Section -->
 
     <section class="contact">
-        <h1>GET IN TOUCH</h1>
-        <div class="personal-info">
+        <h1 class="section-title">GET IN TOUCH</h1>
+        <div class="personal-info contact-wrapper">
             <div class="icon-link">
                 <i class="bi bi-envelope fs-2" style="color: #E31382"></i>
                 <a href="mailto: alexisobenavidez@gmail.com">alexisobenavidez@gmail.com</a>
@@ -147,7 +150,7 @@
                 <p>Murfreesboro, Tennessee</p>
             </div>
         </div>
-        <form>
+        <form class="contact-wrapper">
             <div class="row g-3 mb-3">
                 <div class="col-sm-6">
                     <input type="text" class="form-control" placeholder="Name" aria-label="Name">
@@ -183,7 +186,8 @@
         <p>Made with ❤️ by Alexis Benavidez</p>
     </footer>
 
-    <script type="module" src="js/index.js"></script>
+
+    <script type="module" src="./js/index.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
 </body>
 

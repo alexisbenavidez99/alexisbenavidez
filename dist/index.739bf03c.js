@@ -574,10 +574,128 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"ebWYT":[function(require,module,exports) {
-ScrollReveal().reveal(".hero", {
-    delay: 500
-});
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+var _scrollReveal = require("./scrollReveal");
+var _scrollRevealDefault = parcelHelpers.interopDefault(_scrollReveal);
+var _scrollRevealConfig = require("./scrollRevealConfig");
+(0, _scrollRevealDefault.default)((0, _scrollRevealConfig.targetElements), (0, _scrollRevealConfig.defaultProps));
 
-},{}]},["j9r0q","ebWYT"], "ebWYT", "parcelRequire879e")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./scrollReveal":"cMnxx","./scrollRevealConfig":"hDDk7"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"cMnxx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>initScrollReveal);
+function initScrollReveal(targetElements, defaultProps) {
+    if (!targetElements.length) return;
+    ScrollReveal({
+        reset: false
+    });
+    targetElements.forEach(({ element, animation })=>{
+        ScrollReveal().reveal(element, Object.assign({}, defaultProps, animation));
+    });
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hDDk7":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "defaultProps", ()=>defaultProps);
+parcelHelpers.export(exports, "targetElements", ()=>targetElements);
+const defaultProps = {
+    easing: "cubic-bezier(0.5, 0, 0, 1)",
+    distance: "30px",
+    duration: 1000,
+    desktop: true,
+    mobile: true
+};
+const targetElements = [
+    {
+        element: ".section-title",
+        animation: {
+            delay: 300,
+            distance: "0px",
+            origin: "bottom"
+        }
+    },
+    {
+        element: ".hero-title",
+        animation: {
+            delay: 500,
+            origin: window.innerWidth > 768 ? "left" : "bottom"
+        }
+    },
+    {
+        element: ".hero-cta",
+        animation: {
+            delay: 1000,
+            origin: window.innerWidth > 768 ? "left" : "bottom"
+        }
+    },
+    {
+        element: ".about-wrapper__image",
+        animation: {
+            delay: 600,
+            origin: "bottom"
+        }
+    },
+    {
+        element: ".about-wrapper__info",
+        animation: {
+            delay: 1000,
+            origin: window.innerWidth > 768 ? "left" : "bottom"
+        }
+    },
+    {
+        element: ".project-wrapper__text",
+        animation: {
+            delay: 500,
+            origin: window.innerWidth > 768 ? "left" : "bottom"
+        }
+    },
+    {
+        element: ".project-wrapper__image",
+        animation: {
+            delay: 1000,
+            origin: window.innerWidth > 768 ? "right" : "bottom"
+        }
+    },
+    {
+        element: ".contact-wrapper",
+        animation: {
+            delay: 800,
+            origin: "bottom"
+        }
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["j9r0q","ebWYT"], "ebWYT", "parcelRequire879e")
 
 //# sourceMappingURL=index.739bf03c.js.map
