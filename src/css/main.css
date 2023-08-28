@@ -22,7 +22,7 @@
 /* Hero Section */
 
 .hero {
-    margin: 15%;
+    margin: 25% 15%;
 }
 
 .hero h1 {
@@ -38,8 +38,10 @@
 /* About Section */
 
 .about {
-    margin: 30% 20% 20%;
+    /* margin: 30% 20% 20%; */
+    padding: 5% 20% 20%;
     position: relative;
+    background-image: linear-gradient(176deg, #E31382 70%, #ffffff calc(70% + 2px));
 }
 
 .about h1 {
@@ -48,6 +50,7 @@
     font-weight: 700;
     text-align: center;
     margin-bottom: 10%;
+    color: white;
 }
 
 .about img {
@@ -62,30 +65,40 @@
     width: 55%;
     align-content: center;
     margin-top: 5%;
+    color: white;
+}
+
+.about .btn {
+    color: white !important;
+    border-color: white !important;
+}
+
+.about .btn:hover {
+    background-color: white !important;
+    color: #E31382 !important;
 }
 
 /* Project Section */
 
-.project {
+/* .project {
     max-width: 1024px;
     margin: 0 auto;
     width: 100%;
-}
+} */
 
 .project h1 {
     font-family: 'Satoshi', sans-serif;
     font-size: 60px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 10%;
 }
 
 .project-section {
-    width: 100%;
+    /* width: 100%; */
     display: grid; 
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    margin-bottom: 20%;
+    padding: 10%;
 }
 
 .project-section h2 {
@@ -116,9 +129,10 @@
 /* Contact Section */
 
 .contact {
-    margin: 20% 20% 5%;
+    margin: 10% 20% 5%;
     /* border: solid 5px red; */
     height: 600px;
+    background-image: linear-gradient(calc(70% + 2px), 176deg, #E31382 100%);
 }
 
 .contact h1 {
