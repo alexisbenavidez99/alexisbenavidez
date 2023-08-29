@@ -200,4 +200,80 @@ footer p {
   transform: translate(0, -10px);
 }
 
+@media screen and (width <= 1426px) {
+  .hero h1 {
+    font-size: 65px;
+  }
+}
+
+@media screen and (width <= 1370px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+}
+
+@media screen and (width <= 1299px) {
+  .contact form {
+    width: 50%;
+  }
+}
+
+@media screen and (width <= 1220px) {
+  .hero {
+    margin: 30% 15%;
+  }
+
+  .hero h1 {
+    font-size: 55px;
+  }
+
+  .about {
+    padding: 5% 15% 15%;
+  }
+}
+
+@media screen and (width <= 1185px) {
+  .about {
+    padding: 5% 15% 15%;
+  }
+}
+
+@media screen and (width <= 1114px) {
+  .hero {
+    margin: 35% 15%;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .project-section img {
+    width: 500px;
+  }
+
+  .contact {
+    padding: 10% 20% 20%;
+  }
+}
+
+@media screen and (width <= 1041px) {
+  .hero {
+    margin: 35% 10%;
+  }
+
+  .about {
+    padding: 5% 10% 15%;
+  }
+
+  .contact {
+    padding: 10%;
+  }
+}
+
+@media screen and (width <= 1008px) {
+  .project-section img {
+    width: 450px;
+  }
+}
+
 /*# sourceMappingURL=index.34df27b5.css.map */
