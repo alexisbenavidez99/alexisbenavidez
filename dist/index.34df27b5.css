@@ -296,6 +296,61 @@ footer p {
   }
 }
 
+@media screen and (width <= 754px) {
+  .about {
+    height: 750px;
+  }
+
+  .about img {
+    width: 275px;
+  }
+
+  .project-section img {
+    width: 280px;
+  }
+
+  .contact {
+    padding: 10% 5%;
+  }
+}
+
+@media screen and (width <= 705px) {
+  .hero {
+    margin: 35% 3%;
+  }
+
+  .about {
+    height: 600px;
+  }
+
+  .about-description {
+    width: 100%;
+  }
+
+  .about img, .project-section img {
+    display: none;
+  }
+
+  .project-section {
+    display: block;
+  }
+
+  .contact {
+    height: 750px;
+    padding: 20% 10%;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+}
+
+@media screen and (width <= 537px) {
+  .contact {
+    height: 800px;
+  }
+}
+
 @media only screen and (device-width >= 768px) and (device-width <= 1024px) and (-webkit-device-pixel-ratio >= 1) {
   .hero {
     margin: 35% 10%;
@@ -353,9 +408,87 @@ footer p {
   }
 }
 
-@media only screen and (device-width >= 375px) and (device-width <= 812px) and (-webkit-device-pixel-ratio >= 3) {
+@media only screen and (device-width >= 414px) and (device-width <= 896px) and (-webkit-device-pixel-ratio >= 3) {
   .contact {
     padding: 20% 10%;
+  }
+}
+
+@media only screen and (device-width >= 375px) and (device-width <= 667px) and (-webkit-device-pixel-ratio >= 2) {
+  .contact {
+    padding: 20% 10%;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) {
+  html {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .about {
+    height: 650px;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .about-description {
+    width: 100%;
+  }
+
+  .project-section img {
+    display: none;
+  }
+
+  .project-section {
+    display: block;
+  }
+
+  .contact {
+    height: 800px;
+    padding: 20% 10%;
+  }
+
+  .contact form {
+    width: 100%;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  html {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .about {
+    height: 650px;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .about-description {
+    width: 100%;
+  }
+
+  .project-section img {
+    display: none;
+  }
+
+  .project-section {
+    display: block;
+  }
+
+  .contact {
+    height: 800px;
+    padding: 20% 10%;
+  }
+
+  .contact form {
+    width: 100%;
   }
 }
 

@@ -333,6 +333,64 @@ footer p {
     }
 }
 
+@media screen and (max-width: 754px) {
+    .about {
+        height: 750px;
+    }
+
+    .about img {
+        width: 275px;
+    }
+
+    .project-section img {
+        width: 280px;
+    }
+
+    .contact {
+        padding: 10% 5%;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .hero {
+        margin: 35% 3%;
+    }
+    .about {
+        height: 600px;
+    }
+
+    .about-description {
+        width: 100%;
+    }
+
+    .about img {
+        display: none;
+    }
+
+    .project-section img {
+        display: none;
+    }
+
+    .project-section {
+        display: block;
+    }
+
+    .contact {
+        height: 750px;
+        padding: 20% 10%;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 537px) {
+    .contact {
+        height: 800px;
+    }
+}
+
 /* Popular Tablets */
 
 /* Portrait and Landscape */
@@ -399,7 +457,7 @@ footer p {
    }
 
    .contact form {
-    width: 100%;
+        width: 100%;
    }
     
 }
@@ -408,10 +466,101 @@ footer p {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
+  and (min-device-width: 414px) 
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+    .contact {
+       padding: 20% 10%;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
     .contact {
         padding: 20% 10%;
     }
+}
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    html {
+        width: fit-content;
+    }
+
+    .about {
+        height: 650px;
+    }
+
+    .about img {
+        display: none;
+    }
+
+   .about-description {
+        width: 100%;
+   }
+    
+    .project-section img {
+        display: none;
+    }
+
+    .project-section {
+        display: block;
+   }
+
+   .contact {
+        height: 800px;
+        padding: 20% 10%;
+   }
+
+   .contact form {
+        width: 100%;
+   }
+}
+
+/* ----------- Galaxy S4, S5 and Note 3 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    html {
+        width: fit-content;
+    }
+
+    .about {
+        height: 650px;
+    }
+
+    .about img {
+        display: none;
+    }
+
+   .about-description {
+        width: 100%;
+   }
+    
+    .project-section img {
+        display: none;
+    }
+
+    .project-section {
+        display: block;
+   }
+
+   .contact {
+        height: 800px;
+        padding: 20% 10%;
+   }
+
+   .contact form {
+        width: 100%;
+   }
 }
