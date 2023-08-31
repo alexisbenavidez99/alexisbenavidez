@@ -580,7 +580,21 @@ var _scrollRevealDefault = parcelHelpers.interopDefault(_scrollReveal);
 var _scrollRevealConfig = require("./scrollRevealConfig");
 (0, _scrollRevealDefault.default)((0, _scrollRevealConfig.targetElements), (0, _scrollRevealConfig.defaultProps));
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./scrollReveal":"cMnxx","./scrollRevealConfig":"hDDk7"}],"gkKU3":[function(require,module,exports) {
+},{"./scrollReveal":"cMnxx","./scrollRevealConfig":"hDDk7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cMnxx":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>initScrollReveal);
+function initScrollReveal(targetElements, defaultProps) {
+    if (!targetElements.length) return;
+    ScrollReveal({
+        reset: false
+    });
+    targetElements.forEach(({ element, animation })=>{
+        ScrollReveal().reveal(element, Object.assign({}, defaultProps, animation));
+    });
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -610,21 +624,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"cMnxx":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>initScrollReveal);
-function initScrollReveal(targetElements, defaultProps) {
-    if (!targetElements.length) return;
-    ScrollReveal({
-        reset: false
-    });
-    targetElements.forEach(({ element, animation })=>{
-        ScrollReveal().reveal(element, Object.assign({}, defaultProps, animation));
-    });
-}
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hDDk7":[function(require,module,exports) {
+},{}],"hDDk7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "defaultProps", ()=>defaultProps);
