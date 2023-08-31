@@ -100,7 +100,7 @@
     display: grid; 
     grid-template-columns: 1fr 1fr;
     gap: 5rem;
-    padding: 10%;
+    padding: 8% 10%;
 }
 
 .project-section h2 {
@@ -236,6 +236,7 @@ footer p {
 
 /* Media Queries */
 
+/* Responsive Laptop Screen */
 
 @media screen and (max-width: 1426px) {
     .hero h1 {
@@ -309,5 +310,108 @@ footer p {
 @media screen and (max-width: 1008px) {
     .project-section img {
         width: 450px;
+    }
+}
+
+@media screen and (max-width: 914px) {
+    .hero {
+        margin: 35% 5%;
+    }
+
+    .about {
+        padding: 5% 5% 15%;
+    }
+
+    .project-section img {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 821px) {
+    .about img {
+        width: 300px;
+    }
+}
+
+/* Popular Tablets */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .hero {
+        margin: 35% 10%;
+    }
+
+    .about {
+        padding: 5% 5% 20%;
+    }
+
+    .about img {
+        width: 280px;
+    }
+
+    .project-section img {
+        width: 300px;
+    }
+
+    .contact {
+        padding: 10% 5%;
+    }
+}
+
+/* Popular Phones */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    html {
+        width: fit-content;
+    }
+
+    .about {
+        height: 600px;
+    }
+
+    .about img {
+        display: none;
+    }
+
+   .about-description {
+        width: 100%;
+   }
+
+   .project-section img {
+        display: none;
+   }
+
+   .project-section {
+        display: block;
+   }
+
+   .contact {
+        height: 750px;
+   }
+
+   .contact form {
+    width: 100%;
+   }
+    
+}
+
+/* ----------- iPhone X & iPhone XR ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .contact {
+        padding: 20% 10%;
     }
 }
