@@ -2,10 +2,10 @@
   "name": "alexisbenavidez",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
