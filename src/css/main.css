@@ -551,32 +551,14 @@ footer p {
 
 /* Safari Browser */
 
-/* iPhone 8+ */
-/* @media not all and (min-resolution:.001dpcm) { 
-    @media screen 
-    and (min-device-width: 414px) 
-    and (max-device-width: 736px) {
-        .about-wrapper__image { 
-            display: none;
-        }
+/* Safari 10.1+ */
 
-        .project-wrapper__image {
-            display: none;
-        }
+@media not all and (min-resolution:.001dpcm) { @media {
+
+    .safari_only { 
+
+        color:#0000FF; 
+        background-color:#CCCCCC; 
+
     }
-} */
-
-/* @media not all 
-and (min-resolution:.003dpcm)
-and (min-device-width: 414px) 
-and (max-device-width: 736px) {
-    @supports (-webkit-appearance:none) {
-        .about-wrapper__image { 
-            display: none;
-        }
-
-        .project-wrapper__image {
-            display: none;
-        }
-    }
-} */
+}}
