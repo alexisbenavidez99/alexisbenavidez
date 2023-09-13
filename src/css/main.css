@@ -566,7 +566,10 @@ footer p {
     }
 } */
 
-@media not all and (min-resolution:.003dpcm) {
+@media not all 
+and (min-resolution:.003dpcm)
+and (min-device-width: 414px) 
+and (max-device-width: 736px) {
     @supports (-webkit-appearance:none) {
         .about-wrapper__image { 
             display: none;
