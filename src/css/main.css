@@ -566,7 +566,7 @@ footer p {
     }
 } */
 
-@media not all 
+/* @media not all 
 and (min-resolution:.003dpcm)
 and (min-device-width: 414px) 
 and (max-device-width: 736px) {
@@ -579,4 +579,4 @@ and (max-device-width: 736px) {
             display: none;
         }
     }
-}
+} */
