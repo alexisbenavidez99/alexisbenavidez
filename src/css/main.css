@@ -564,3 +564,20 @@ footer p {
         width: 100%;
    }
 }
+
+/* Safari Browser */
+
+/* iPhone 8+ */
+@media not all and (min-resolution:.001dpcm) { 
+    @media screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) {
+        .about-wrapper__image { 
+            display: none;
+        }
+
+        .project-wrapper__image {
+            display: none;
+        }
+    }
+}
