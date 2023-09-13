@@ -548,17 +548,3 @@ footer p {
         width: 100%;
     }
 }
-
-/* Safari Browser */
-
-/* Safari 10.1+ */
-
-@media not all and (min-resolution:.001dpcm) { @media screen {
-
-    .safari_only { 
-
-        color:#0000FF; 
-        background-color:#f50d0d; 
-
-    }
-}}
